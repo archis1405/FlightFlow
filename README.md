@@ -21,3 +21,16 @@
         `npx sequelize db:create`
       
 
+## DB Design
+    - AirPlane Table
+    - Flight Table
+    - Airport Table 
+    - City 
+
+    - A flight belongs to an Airplane but one Airplane can be used in multiple flights
+    - A city can haave multiple airports but one airport belongs to a city
+    - One Airport cn have many flights , but  flight can lnd in only one airport
+
+## Flights Table 
+
+
