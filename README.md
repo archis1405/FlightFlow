@@ -17,3 +17,7 @@
         },
       }
 
+      - Once you have added the db config as list ed above , go to the src folder from terminaal nd execute
+        `npx sequelize db:create`
+      
+
