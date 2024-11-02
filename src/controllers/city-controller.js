@@ -1,6 +1,7 @@
 const { CityService } = require('../services/index');
 
-const CityService = new CityService();
+const cityService = new CityService();
+
 /*
 
     POST
@@ -10,7 +11,7 @@ const CityService = new CityService();
 
 const create = async (req,res) => {
     try {
-        const city = await CityService.createCity(req.body);
+        const city = await cityService.createCity(req.body);
         return res.status(201).json({
             data : city ,
             success : true,
