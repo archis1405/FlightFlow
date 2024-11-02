@@ -34,6 +34,17 @@
     - A city can haave multiple airports but one airport belongs to a city
     - One Airport cn have many flights , but  flight can lnd in only one airport
 
+## City Table
+    - City -> id, name, created_at, updated_at
+
+## Airport Table
+    - Airport table -> id , name , address , city_id, created_at,updated_at
+
+    - Relationship b/w city and Airport
+      A single city can have multiple airports so we will be defining a one to many relationship 
+
 ## Flights Table 
+
+
 
 
